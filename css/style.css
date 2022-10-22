@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none; 
+   color: #312a26;
+   background-size: cover; 
+}
+
+/*All Headings tags*/
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+label,
+span,
+a {
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+a:hover{
+   color: gray;
+}
+
+body{
+   width: 100%;
+}
+
+/* Header Area */
+
+.nav {
+overflow: auto;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+}
+.nav h1 {
+   width: 50%;
+   float: left;
+}
+.nav ul {
+   width: 50%;
+   float: left;
+   text-align: right;
+   padding-top: 10px;
+}
+
+.nav a {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+   }
+
+.nav li {
+   display: inline-block;
+}
+
+/* Banner Area */
+
+.banner {
+   height: 650px;
+   background-color: khaki;
+   background-image: url(../Images/atf-image.jpg); 
+   background-size: cover;
+   background-position: center ;  
+   margin-bottom: 5%;
+}
+
+.banner-text {
+   width: 30%;
+   position: relative;
+   top: 20%;
+   left: 7.5%;
+}
+.banner h2 {
+   text-transform: uppercase;
+   font-size: 75px;
+   line-height: 75px;
+}
+.banner a {
+   padding: 15px 20px;
+   background-color: #312a26;
+   color: white;
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.banner span {
+   color: green;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.banner p {
+   font-style: italic;
+   margin-bottom: 15px;
+}
+/* Ads Area */
+.container {
+  display: flex;
+   justify-content: center;
+   margin-top: 0%;
+   flex-wrap: wrap;
+}
+.box1 {
+  float: left;
+   width: 530px;
+   padding: 3px;   
+}
+.inner-box1 {
+   height:300px ;
+   background-size: cover; 
+}
+.image2 {
+   background-image: url(../Images/merchandise1.jpg);
+}
+.image3 {
+   background-image: url(../Images/merchandise2.jpg);
+}
+.box1 a, h3 {
+   margin-left: 50px;
+   color: white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   
+}
+.box1 a{
+   margin-top: 40px;
+   color: white;
+   margin-left: 50px;
+   font-size: 15px;
+   text-decoration: none; 
+   font-family: 'Courier New', Courier, monospace;
+}
+/* Available Products */
+.text {
+   text-align: center;
+   margin-top: 20px;
+}
+.h2-tag h2 {
+   text-align: center; 
+   color: black;
+}
+.text p {
+   color: salmon;
+   font-family: cursive; 
+   text-align: center;
+} 
+.box2 p {
+   color: khaki;
+}
+.container1 {
+   display: flex;
+justify-content: center;
+margin-top: 20px;
+flex-wrap: wrap;
+text-align: left;
+}
+.box2 {
+margin: 10px;
+width: 270px;
+}
+.inner-box2 {
+   background-color: gray;
+   height: 300px;
+   background-size: cover;
+}
+.image4 {
+   background-image: url(../Images/product1.jpg);
+}
+.image5 {
+   background-image: url(../Images/product2.jpg);
+}
+.image6 {
+   background-image: url(../Images/product3.jpg);
+}
+.image7 {
+   background-image: url(../Images/product4.jpg);
+}
+.image8 {
+   background-image: url(../Images/product5.jpg);
+}
+.image9 {
+   background-image: url(../Images/product6.jpg);
+}
+.image10 {
+   background-image: url(../Images/product7.jpg);
+}
+.image11 {
+   background-image: url(../Images/product8.jpg);
+}
+/* 25% Off */
+.text2 {
+   text-align: center;
+    margin-top: 30px;
+    background-image: url(../Images/banner.jpg);
+    height: 270px; 
+    margin-bottom: 0%;
+} 
+.text2 h2 {
+   color: black;
+}
+.text2 a {
+    color: black;
+   border: 15px solid;
+   border-color: white;
+   background-color: white; 
+} 
+.text2 image {
+   margin-top: 500px;
+}
+.h2-tag1 h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    color: white;
+    width: 1000px;
+}
+.text2 p { 
+    margin-top: 80px;
+    color:salmon;
+    font-family: cursive;
+}
+/* merchandise sale */
+
+.h2-tag2 h2 {
+    text-align: center;
+}
+.text3 p {
+   color: khaki;
+   font-family: cursive;
+   text-align: left;
+}
+.container2 {
+    display: flex;
+ justify-content: center;
+ margin-top: 100px;
+ flex-wrap: wrap;
+ text-align: left;
+
+} 
+.box3 {
+margin: 10px;
+width: 270px;
+margin-bottom: 50px;
+
+}
+.inner-box3 {
+    background-color: gray;
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 0%;
+}
+.box3 p, strong {
+  margin-top: 0;
+}
+.box3 p {
+   color: khaki;
+}
+.image13 {
+   background-image: url(../Images/product1.jpg);
+}
+.image14 {
+   background-image: url(../Images/product2.jpg);
+}
+.image15 {
+    background-image: url(../Images/product3.jpg);
+}
+.image16 {
+    background-image: url(../Images/product4.jpg);
+}
+.image8 {
+    background-image: url(../Images/product5.jpg);
+}
+.image9 {
+    background-image: url(../Images/product6.jpg);
+}
+
+/* coffee */
+.parent {
+   display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    flex-wrap: wrap;
+}
+.child1 {
+   float: left;
+    width: 500px;
+    padding: 3px;   
+   }
+   .child2 {
+       height:300px ;
+       background-size: cover; 
+   }
+.image2 {
+    background-image: url(../Images/merchandise3.jpg);
+}
+.image3 {
+    background-image: url(../Images/merchandise4.jpg);
+}
+.child1 a, h3 {
+    margin-left: 50px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+.child1 a{
+    margin-top: 40px;
+    color: white;
+    margin-left: 50px;
+    font-size: 15px;
+    text-decoration: none; 
+    font-family: 'Courier New', Courier, monospace;
+}
+/* space */
+.mother {
+   display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    flex-wrap: wrap;
+}
+.son {
+   float: left;
+    width: 500px;
+    padding: 3px;   
+   }
+   .son1 {
+       height:300px ;
+       background-size: cover; 
+   }
+.picture {
+    background-image: url(../Images/merchandise5.jpg);
+}
+.picture1 {
+    background-image: url(../Images/merchandise6.jpg);
+}
+.son a, h3 {
+    margin-left: 50px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px; 
+}
+.son a{
+    margin-top: 40px;
+    color: white;
+    margin-left: 50px;
+    font-size: 15px;
+    text-decoration: none; 
+    font-family: 'Courier New', Courier, monospace;
+}
+/* resrvation area */
+.father {
+   text-align: center;
+   margin-top: 20px;
+   
+   font-size: 100px;
+}
+.father h3 {
+   color: black;
+}
+/* information */
+.uncle {
+   margin-top: 20px;
+background-color: gray; 
+border-radius: 5px; 
+margin-left: 9.5%;
+width: 40%;
+float: left;
+}
+.uncle1 {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.uncle1 [type= text]{
+   width: 100%;
+}
+.uncle1 [type= date]{
+   width: 100%;
+}
+/*information1*/
+.baby {
+   margin-top: 20px;
+background-color: gray; 
+border-radius: 5px; 
+margin-right: 9.5%; 
+width: 40%;
+float: right;
+} 
+.baby1 {
+   margin-left: 20px; 
+   margin-right: 20px;
+}
+.baby [type =submit] {
+   width: 100%;
+   background: green;
+   color: white;
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+}
+.baby1 [type= text]{
+   width: 100%;
+}
+.baby1 p{
+   text-align: center;
+}
+/*final*/ 
+.honey {
+   background-image: url(../images/footer-img.jpg);
+   background-repeat:no-repeat ;
+   background-size: cover;
+   padding: 3%;
+   margin-top: 40.6%;
+   height: 400px;
+}
+.bunny {
+   color: white;
+}
+.bunny th, h4, td{
+   color: white;
+}
+.bunny{
+   display: inline-block;
+   margin-left: 0%;
+   margin-right: 2%;
+   margin-top: 0%;
+}
+
+.bunny h4{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-transform: uppercase;
+}
+
+.bunny h3{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white;
+   font-size: 20px;
+   margin-top: 10%; 
+   margin-left: 0%;
+
+}
+.bunny p{
+   color:burlywood;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-top: 25px;
+   font-size: 20px;
+}
+
+.bunny h5{
+   color: burlywood;
+   font-size: 20px; ;
+}
+
+
+#search{
+   padding: 7.5px;
+   background-color: burlywood;
+}
+
+#standardpost{
+   height: 30px;
+}
+/*last*/
+.item{
+   background-color:black;
+   background-size: cover;
+    width: 100%;
+   text-align: center;
+   overflow: hidden;
+   height: 100px;
+   margin-top: 30px;
+}
+
+.item h2, li, ul,a, p{
+   display: inline;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item a:hover{
+   color: rgb(207, 180, 140);
+}
+
+.item h2, ul, p{
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item h2, ul{
+   margin-right: 19%;
+}
